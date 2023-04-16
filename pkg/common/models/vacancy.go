@@ -7,8 +7,8 @@ type Vacancy struct {
 	Description string
 	Url         string
 	Skills      []string
-	SalaryTo    int
-	SalaryFrom  int
+	SalaryFrom  int64
+	SalaryTo    int64
 	Currency    string
 	Address     string
 	City        string
